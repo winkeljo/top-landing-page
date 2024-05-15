@@ -1,12 +1,24 @@
 body {
     margin: 0;
     padding: 0 200px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
 }
 
 .header {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
+}
+
+.footer {
+    justify-content: center;
+    font-size: 12px;
 }
 
 .header ul {
@@ -15,4 +27,9 @@ body {
     list-style: none;
     display: flex;
     gap: 15px;
+    font-size: 12px;
+}
+
+.header p {
+    font-weight: 600;
 }
