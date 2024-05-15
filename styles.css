@@ -33,3 +33,24 @@ body {
 .header p {
     font-weight: 600;
 }
+
+.content-top {
+    display: flex;
+    align-items: center;
+}
+
+.main-image {
+    flex-shrink: 0;
+    width: 300px;
+    height: 150px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-image p {
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
