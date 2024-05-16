@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    padding: 0 200px;
     font-family: Verdana, Tahoma, sans-serif;
 }
 
@@ -9,7 +8,7 @@ body {
     color: white;
     display: flex;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 200px;
 }
 
 .header {
@@ -35,13 +34,48 @@ body {
 }
 
 .content-top {
+    background-color: #1f2937;
+    color: white;
     display: flex;
-    align-items: center;
+    gap: 12px;
+    align-items: stretch;
+    padding: 20px 200px;
+}
+
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.sign-up-title {
+    font-size: 24px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+}
+
+.sign-up-text {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 6px 15px;
+    border-radius: 10px;
+    border: none;
+    margin: 0;
 }
 
 .main-image {
     flex-shrink: 0;
-    width: 300px;
+    width: 380px;
     height: 150px;
     background-color: gray;
     display: flex;
