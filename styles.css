@@ -40,7 +40,7 @@ body {
     display: flex;
     gap: 12px;
     align-items: stretch;
-    padding: 20px 200px;
+    padding: 50px 200px;
 }
 
 .sign-up-container {
@@ -69,7 +69,7 @@ body {
     font-size: 12px;
     font-weight: 700;
     padding: 6px 15px;
-    border-radius: 10px;
+    border-radius: 15px;
     border: none;
     margin: 0;
 }
@@ -82,6 +82,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
+    border-radius: 10px;
 }
 
 .main-image p {
